@@ -1,0 +1,942 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(224, 217, 205);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden;
+    margin: 0;
+    cursor : url(http://www.favorisxp.com/curseur/pointeur-de-souris-keto-dark.png), pointer;
+  }
+
+ main{
+    display: block;
+    position: relative;
+    width: 100%;
+    max-width: 2500px;
+    overflow-x: hidden;
+    height: 100vh;
+   /* background-color: rgb(255, 255, 255);*/
+  }
+
+  .overlay {
+    position: fixed; /* Pour couvrir tout l'écran */
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: url('https://www.pngall.com/wp-content/uploads/15/Overlay-PNG-Images-HD.png') no-repeat center center/cover; /* Image d'overlay */
+    background-color: rgba(0, 0, 0, 0); /* Ajoute une couleur semi-transparente en plus de l'image si tu veux un effet plus sombre */
+    z-index: -11;
+    opacity: 0.7; /* Rend l'image un peu transparente si besoin */
+  }
+
+.facade{
+  font-family: 'FacadeGX';/*on réutilise le nom choisi au sein du fichier font_liste.css*/
+}
+
+.mixal{
+  font-family: 'mixal';
+  font-variation-settings: "wght" 900;
+}
+  
+
+#M1{
+  top: 27.78vh;
+  font-size: 25.85vw;
+  z-index: -10;
+  color:rgb(121, 194, 207);
+  position: relative;
+  text-align: center;
+  font-variation-settings: "wght" 700;
+}
+
+#F1-ATCHOUM,
+#F1-ATCHOUM2{
+  font-size: 3.54vw;
+  top: 16.20vh;
+  left: 39.45vw;
+  z-index: 1;
+  color:black;
+  position: absolute;
+  font-variation-settings: "wght" 500, "ctst" 100;
+animation-name:F1-ATCHOUM ; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+animation-duration: 0.2s; /*durée totale d'une itération de l'animation en seconde*/
+animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+animation-direction:unset;/*lire l'animation dans un sens puis dans l'autre*/
+animation-fill-mode:forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+animation-delay : 0s;/*faire démarer une animation un peu en retard*/
+
+}
+#F1-ATCHOUM:hover,
+#F1-ATCHOUM2:hover{
+  animation-play-state: paused;
+  cursor : url(http://www.favorisxp.com/curseur/pointeur-de-souris-keto-light.png), pointer;
+  
+}
+
+@keyframes F1-ATCHOUM { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+  
+0%{ /*ici on renseigne la valeur de départ*/
+transform: rotate(0deg);
+}
+
+100%{/*ici on renseigne la valeur de fin*/
+transform: rotate(360deg);
+}
+}
+
+#F1-ATCHOUM2{
+  top : 116.20vh; 
+  opacity : 50%
+}
+
+
+
+#F1-RRR,
+#F1-RRR2{
+  font-size: 2.36vw;
+  top: 9.25vh;
+  left: 7.89vw;
+  z-index: 1;
+  color:black;
+  position: absolute;
+  font-variation-settings: "wght" 500, "ctst" 100;
+transform: rotate(-30deg);
+animation-name:F1-RRR ; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+animation-duration: 0.1s; /*durée totale d'une itération de l'animation en seconde*/
+animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+animation-direction:unset;/*lire l'animation dans un sens puis dans l'autre*/
+animation-fill-mode:forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+animation-delay : 0s;/*faire démarer une animation un peu en retard*/
+}
+#F1-RRR:hover,
+#F1-RRR2:hover{
+  animation-play-state: paused;
+  cursor : url(http://www.favorisxp.com/curseur/pointeur-de-souris-keto-light.png), pointer;
+}
+
+@keyframes F1-RRR { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+  
+0%{ /*ici on renseigne la valeur de départ*/
+transform: rotate(0deg);
+}
+
+100%{/*ici on renseigne la valeur de fin*/
+transform: rotate(-360deg);
+}
+}
+
+#F1-RRR2 {
+  top : 109.25vh;
+  opacity: 50%;
+}
+
+#F1-HIC,
+#F1-HIC2{
+  font-size: 3.54vw;
+  top: 30.55vh;
+  left: 15.62vw;
+  z-index: 1;
+  color:black;
+  position: absolute;
+  font-variation-settings: "wght" 500, "ctst" 100;
+animation-name:F1-HIC ; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+animation-duration: 0.2s; /*durée totale d'une itération de l'animation en seconde*/
+animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+animation-direction:unset;/*lire l'animation dans un sens puis dans l'autre*/
+animation-fill-mode:forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+animation-delay : 0s;/*faire démarer une animation un peu en retard*/
+}
+#F1-HIC:hover,
+#F1-HIC2:hover{
+  animation-play-state: paused;
+  cursor : url(http://www.favorisxp.com/curseur/pointeur-de-souris-keto-light.png), pointer;
+}
+
+@keyframes F1-HIC { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+  
+0%{ /*ici on renseigne la valeur de départ*/
+transform: rotate(0deg);
+}
+
+100%{/*ici on renseigne la valeur de fin*/
+transform: rotate(360deg);
+}
+}
+#F1-HIC2{
+  top:130.55vh;
+  opacity: 35%;
+}
+
+#F1-AIE,
+#F1-AIE2{
+  font-size: 2.95vw;
+  top: 50.93vh;
+  left: 1.97vw;
+  z-index: 1;
+  color:black;
+  position: absolute;
+  font-variation-settings: "wght" 500, "ctst" 100;
+transform: rotate(-15deg);
+animation-name:F1-AIE ; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 0.1s; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+  animation-direction:unset;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode:forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+  animation-delay : 0s;/*faire démarer une animation un peu en retard*/
+}
+#F1-AIE:hover,
+#F1-AIE2:hover{
+  animation-play-state: paused;
+  cursor : url(http://www.favorisxp.com/curseur/pointeur-de-souris-keto-light.png), pointer;
+}
+
+@keyframes F1-AIE { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+  
+0%{ /*ici on renseigne la valeur de départ*/
+transform: rotate(0deg);
+}
+
+100%{/*ici on renseigne la valeur de fin*/
+transform: rotate(-360deg);
+}
+}
+#F1-AIE2 {
+  top: 150.93vh;
+  opacity: 15%;
+}
+
+#F1-CLIC{
+  font-size: 2.95vw;
+  top: 78.7vh;
+  left: 2.96vw;
+  z-index: 1;
+  color:black;
+  position: absolute;
+  font-variation-settings: "wght" 500, "ctst" 100;
+transform: rotate(25deg);
+animation-name:F1-CLIC ; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 0.1s; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+  animation-direction:unset;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode:forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+  animation-delay : 0s;/*faire démarer une animation un peu en retard*/
+}
+#F1-CLIC:hover{
+  animation-play-state: paused;
+  cursor : url(http://www.favorisxp.com/curseur/pointeur-de-souris-keto-light.png), pointer;
+}
+
+@keyframes F1-CLIC { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+  
+0%{ /*ici on renseigne la valeur de départ*/
+transform: rotate(0deg);
+}
+
+100%{/*ici on renseigne la valeur de fin*/
+transform: rotate(360deg);
+}
+}
+
+#F1-ZZZ,
+#F1-ZZZ2{
+  font-size: 2.95vw;
+  top: 41.67vh;
+  left: 80vw;
+  z-index: 1;
+  color:black;
+  position: absolute;
+  font-variation-settings: "wght" 500, "ctst" 100;
+transform: rotate(-10deg);
+animation-name:F1-ZZZ ; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 0.2s; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+  animation-direction:unset;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode:forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+  animation-delay : 0s;/*faire démarer une animation un peu en retard*/
+}
+#F1-ZZZ:hover,
+#F1-ZZZ2:hover{
+  animation-play-state: paused;
+  cursor : url(http://www.favorisxp.com/curseur/pointeur-de-souris-keto-light.png), pointer;
+}
+
+@keyframes F1-ZZZ { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+  
+0%{ /*ici on renseigne la valeur de départ*/
+transform: rotate(0deg);
+}
+
+100%{/*ici on renseigne la valeur de fin*/
+transform: rotate(-360deg);
+}
+}
+
+#F1-ZZZ2{
+  top: 141.67vh;
+  opacity: 15%;
+}
+
+#F1-CLAC{ 
+  font-size: 2.36vw;
+  top: 55.56vh;
+  left: 39.5vw;
+  z-index: 1;
+  color:black;
+  position: absolute;
+  font-variation-settings: "wght" 500, "ctst" 100;
+transform: rotate(0deg);
+animation-name:F1-CLAC ; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 0.1s; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+  animation-direction:unset;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode:forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+  animation-delay : 0s;/*faire démarer une animation un peu en retard*/
+}
+#F1-CLAC:hover{
+  animation-play-state: paused;
+  cursor : url(http://www.favorisxp.com/curseur/pointeur-de-souris-keto-light.png), pointer;
+}
+
+@keyframes F1-CLAC { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+  
+0%{ /*ici on renseigne la valeur de départ*/
+transform: rotate(0deg);
+}
+
+100%{/*ici on renseigne la valeur de fin*/
+transform: rotate(360deg);
+}
+}
+
+#F1-ZIP{
+  font-size: 2.95vw;
+  top: 74.07vh;
+  left: 27.62vw;
+  z-index: 1;
+  color:black;
+  position: absolute;
+  font-variation-settings: "wght" 500, "ctst" 100;
+transform: rotate(-5deg);
+animation-name:F1-ZIP ; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+animation-duration: 0.2s; /*durée totale d'une itération de l'animation en seconde*/
+animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+animation-direction:unset;/*lire l'animation dans un sens puis dans l'autre*/
+animation-fill-mode:forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+animation-delay : 0s;/*faire démarer une animation un peu en retard*/
+}
+#F1-ZIP:hover{
+  animation-play-state: paused;
+  cursor : url(http://www.favorisxp.com/curseur/pointeur-de-souris-keto-light.png), pointer;
+}
+
+@keyframes F1-ZIP { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+  
+0%{ /*ici on renseigne la valeur de départ*/
+transform: rotate(0deg);
+}
+
+100%{/*ici on renseigne la valeur de fin*/
+transform: rotate(-360deg);
+}
+}
+
+#F1-TIC-TAC{
+  font-size: 3.54vw;
+  top: 83.33vh;
+  left: 43.4vw;
+  z-index: 1;
+  color:black;
+  position: absolute;
+  font-variation-settings: "wght" 500, "ctst" 100;
+transform: rotate(5deg);
+animation-name:F1-TIC-TAC ; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 0.1s; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+  animation-direction:unset;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode:forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+  animation-delay : 0s;/*faire démarer une animation un peu en retard*/
+}
+#F1-TIC-TAC:hover{
+  animation-play-state: paused;
+  cursor : url(http://www.favorisxp.com/curseur/pointeur-de-souris-keto-light.png), pointer;
+}
+
+@keyframes F1-TIC-TAC { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+  
+0%{ /*ici on renseigne la valeur de départ*/
+transform: rotate(0deg);
+}
+
+100%{/*ici on renseigne la valeur de fin*/
+transform: rotate(360deg);
+}
+}
+
+#F1-ARGH{
+  font-size: 3.54vw;
+  top: 69.44vh;
+  left: 59.19vw;
+  z-index: 1;
+  color:black;
+  position: absolute;
+  font-variation-settings: "wght" 500, "ctst" 100;
+transform: rotate(-15deg);
+animation-name:F1-ARGH ; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 0.2s; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+  animation-direction:unset;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode:forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+  animation-delay : 0s;/*faire démarer une animation un peu en retard*/
+}
+#F1-ARGH:hover{
+  animation-play-state: paused;
+  cursor : url(http://www.favorisxp.com/curseur/pointeur-de-souris-keto-light.png), pointer;
+}
+
+@keyframes F1-ARGH { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+  
+0%{ /*ici on renseigne la valeur de départ*/
+transform: rotate(0deg);
+}
+
+100%{/*ici on renseigne la valeur de fin*/
+transform: rotate(-360deg);
+}
+}
+
+#F1-CUI-CUI{
+  font-size: 2.95vw;
+  top: 50.93vh;
+  left: 63.13vw;
+  z-index: 1;
+  color:black;
+  position: absolute;
+  font-variation-settings: "wght" 500, "ctst" 100;
+transform: rotate(5deg);
+animation-name:F1-CUI-CUI ; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 0.1s; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+  animation-direction:unset;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode:forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+  animation-delay : 0s;/*faire démarer une animation un peu en retard*/
+}
+#F1-CUI-CUI:hover{
+  animation-play-state: paused;
+  cursor : url(http://www.favorisxp.com/curseur/pointeur-de-souris-keto-light.png), pointer;
+
+}
+
+@keyframes F1-CUI-CUI { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+  
+0%{ /*ici on renseigne la valeur de départ*/
+transform: rotate(0deg);
+}
+
+100%{/*ici on renseigne la valeur de fin*/
+transform: rotate(360deg);
+}
+}
+
+#F1-KEUF{
+  font-size: 2.36vw;
+  top: 62.96vh;
+  left: 15.78vw;
+  z-index: 1;
+  color:black;
+  position: absolute;
+  font-variation-settings: "wght" 500, "ctst" 100;
+transform: rotate(-5deg);
+animation-name:F1-KEUF ; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 0.2s; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+  animation-direction:unset;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode:forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+  animation-delay : 0s;/*faire démarer une animation un peu en retard*/
+}
+#F1-KEUF:hover{
+  animation-play-state: paused;
+  cursor : url(http://www.favorisxp.com/curseur/pointeur-de-souris-keto-light.png), pointer;
+
+}
+
+@keyframes F1-KEUF { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+  
+0%{ /*ici on renseigne la valeur de départ*/
+transform: rotate(0deg);
+}
+
+100%{/*ici on renseigne la valeur de fin*/
+transform: rotate(-360deg);
+}
+}
+
+#F1-DRING,
+#F1-DRING2{
+  font-size: 2.95vw;
+  top: 20.83vh;
+  left: 69.05vw;
+  z-index: 1;
+  color:black;
+  position: absolute;
+  font-variation-settings: "wght" 500, "ctst" 100;
+transform: rotate(-0deg);
+animation-name:F1-DRING ; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 0.1s; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+  animation-direction:unset;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode:forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+  animation-delay : 0s;/*faire démarer une animation un peu en retard*/
+}
+#F1-DRING:hover,
+#F1-DRING2:hover{
+  animation-play-state: paused;
+  cursor : url(http://www.favorisxp.com/curseur/pointeur-de-souris-keto-light.png), pointer;
+
+}
+
+@keyframes F1-DRING { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+  
+0%{ /*ici on renseigne la valeur de départ*/
+transform: rotate(0deg);
+}
+
+100%{/*ici on renseigne la valeur de fin*/
+transform: rotate(360deg);
+}
+}
+#F1-DRING2{
+  top: 120.83vh;
+  opacity: 35%;
+}
+
+#F1-GRRR,
+#F1-GRRR2{
+  font-size: 3.54vw;
+  top: 37.04vh;
+  left: 29.59vw;
+  z-index: 1;
+  color:black;
+  position: absolute;
+  font-variation-settings: "wght" 500, "ctst" 100;
+transform: rotate(-10deg);
+animation-name:F1-GRRR ; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 0.3s; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+  animation-direction:unset;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode:forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+  animation-delay : 0s;/*faire démarer une animation un peu en retard*/
+}
+#F1-GRRR:hover,
+#F1-GRRR2:hover{
+  animation-play-state: paused;
+  cursor : url(http://www.favorisxp.com/curseur/pointeur-de-souris-keto-light.png), pointer;
+}
+
+@keyframes F1-GRRR { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+  
+0%{ /*ici on renseigne la valeur de départ*/
+transform: rotate(0deg);
+}
+
+100%{/*ici on renseigne la valeur de fin*/
+transform: rotate(-360deg);
+}
+}
+#F1-GRRR2{
+  top: 137.04vh;
+  opacity: 15%;
+}
+
+#F1-HUMPF,
+#F1-HUMPF2{
+  font-size: 2.36vw;
+  top: 13.89vh;
+  left: 84.83vw;
+  z-index: 1;
+  color:black;
+  position: absolute;
+  font-variation-settings: "wght" 500, "ctst" 100;
+transform: rotate(5deg);
+animation-name:F1-HUMPF ; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 0.1s; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+  animation-direction:unset;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode:forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+  animation-delay : 0s;/*faire démarer une animation un peu en retard*/
+}
+#F1-HUMPF:hover,
+#F1-HUMPF2:hover{
+  animation-play-state: paused;
+  cursor : url(http://www.favorisxp.com/curseur/pointeur-de-souris-keto-light.png), pointer;
+
+}
+
+@keyframes F1-HUMPF { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+  
+0%{ /*ici on renseigne la valeur de départ*/
+transform: rotate(0deg);
+}
+
+100%{/*ici on renseigne la valeur de fin*/
+transform: rotate(360deg);
+}
+}
+#F1-HUMPF2{
+  top: 103.89vh;
+  opacity: 50%;
+}
+
+#F1-SNIF,
+#F1-SNIF2{
+  font-size: 3.54vw;
+  top: 32.41vh;
+  left: 92.72vw;
+  z-index: 1;
+  color:black;
+  position: absolute;
+  font-variation-settings: "wght" 500, "ctst" 100;
+transform: rotate(-5deg);
+animation-name:F1-SNIF ; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 0.2s; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+  animation-direction:unset;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode:forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+  animation-delay : 0s;/*faire démarer une animation un peu en retard*/
+}
+#F1-SNIF:hover,
+#F1-SNIF2:hover{
+  animation-play-state: paused;
+  cursor : url(http://www.favorisxp.com/curseur/pointeur-de-souris-keto-light.png), pointer;
+
+}
+
+@keyframes F1-SNIF { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+  
+0%{ /*ici on renseigne la valeur de départ*/
+transform: rotate(0deg);
+}
+
+100%{/*ici on renseigne la valeur de fin*/
+transform: rotate(-360deg);
+}
+}
+#F1-SNIF2{
+  top:132.41vh;
+  opacity: 35%;
+}
+
+#F1-PFFF{
+  font-size: 2.95vw;
+  top: 69.44vh;
+  left: 88.78vw;
+  z-index: 1;
+  color:black;
+  position: absolute;
+  font-variation-settings: "wght" 500, "ctst" 100;
+transform: rotate(15deg);
+animation-name:F1-PFFF ; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 0.2s; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+  animation-direction:unset;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode:forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+  animation-delay : 0s;/*faire démarer une animation un peu en retard*/
+}
+
+#F1-PFFF:hover{
+animation-play-state: paused;
+cursor : url(http://www.favorisxp.com/curseur/pointeur-de-souris-keto-light.png), pointer;
+}
+
+@keyframes F1-PFFF { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+  
+0%{ /*ici on renseigne la valeur de départ*/
+transform: rotate(0deg);
+}
+
+100%{/*ici on renseigne la valeur de fin*/
+transform: rotate(360deg);
+}
+}
+
+
+
+
+
+#F2{
+  font-size: 13.81vw;
+  font-variation-settings: "wght" 100 "ctst" 200;
+  top: 155.59vh;
+  left : 45vw;
+  position: absolute;
+  text-align: center;
+  z-index: 0;
+  color: rgb(0, 0, 0);
+   /*Paramètre de l'animation :*/
+   animation-name: F2; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+   animation-duration: 5s; /*durée totale d'une itération de l'animation en seconde*/
+   animation-iteration-count: 1; /*nombre d'itération de l'animation*/
+   animation-direction: initial;/*lire l'animation dans un sens puis dans l'autre*/
+   animation-fill-mode:forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+   animation-delay : 6s;/*faire démarer une animation un peu en retard*/
+}
+@keyframes F2 { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/  
+0%{ /*ici on renseigne la valeur de départ*/
+color: black;
+font-size: 13.81vw;
+}
+100%{/*ici on renseigne la valeur de fin*/
+color: rgb(128, 16, 16);
+font-size: 10vw;
+}
+}
+
+#M2-1 {
+  position: absolute;
+  top: 150.77vh;
+  left: -51.56vw;
+  transform: rotate(-30deg);
+  transform-origin: left;
+  font-size: 13.02vw;
+  z-index: 1;
+  color:rgb(121, 194, 207);
+  /* nom durée timingfunction delay iteration count,  */
+  animation: M2-1 2000ms ease-in-out 5000ms 1 forwards,
+M2-1a 3000ms ease-in-out 6000ms 1 forwards;
+
+}
+
+@keyframes M2-1 { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/  
+0%{ /*ici on renseigne la valeur de départ*/
+ left: -51.56vw;
+}
+100%{/*ici on renseigne la valeur de fin*/
+  left: 29.59vw;
+}
+}
+@keyframes M2-1a { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+  
+0%{ /*ici on renseigne la valeur de départ*/
+transform: rotate(-30deg);
+color:rgb(121, 194, 207);
+}
+
+100%{/*ici on renseigne la valeur de fin*/
+transform: rotate(-10deg);
+color: black;
+}
+}
+
+
+  
+#M2-2 {
+  position: absolute;
+  top: 157.4vh;
+  left: -51.56vw;
+  color:rgb(121, 194, 207);
+  transform-origin: left;
+  transform: rotate(30deg);
+  font-size: 13.02vw;
+  z-index: 1;
+  animation: M2-2 2000ms ease-in-out 5000ms 1 forwards,
+M2-2a 3000ms ease-in-out 6000ms 1 forwards;
+} 
+
+
+
+@keyframes M2-2 { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+  
+0%{ /*ici on renseigne la valeur de départ*/
+left: -51.56vw;
+
+}
+100%{/*ici on renseigne la valeur de fin*/
+
+  left: 29.59vw;
+}
+
+} 
+
+@keyframes M2-2a { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+  
+0%{ /*ici on renseigne la valeur de départ*/
+  color:rgb(121, 194, 207);
+transform: rotate(30deg);
+}
+100%{/*ici on renseigne la valeur de fin*/
+  color:black;
+transform: rotate(10deg);
+}
+
+} 
+
+
+#M3{
+  top: 280.48vh;
+  font-size: 31.56vw;
+  z-index: -10;
+  left: 12vw;
+  opacity: 0%;
+  color:rgb(0, 0, 0);
+  position: absolute;
+  text-align: center;
+  font-variation-settings: "wght" 700;
+}
+
+#F3-1-1,
+#F3-1-2,
+#F3-1-3,
+#F3-1-4,
+#F3-1-5,
+#F3-1-6,
+#F3-1-7,
+#F3-1-8,
+#F3-1-9 {
+  
+  font-size: 1.91vw;
+  left: 77vw;
+  transform:rotate(90deg);
+  z-index: -10;
+  color: rgb(128, 16, 16);
+  opacity: 0%;
+  position: absolute;
+  text-align: center;
+  font-variation-settings: "wght" 700;
+  animation-name:F3-1 ; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 2s; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count:inherit; /*nombre d'itération de l'animation*/
+  animation-direction:unset;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode:forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+  
+
+}
+
+@keyframes F3-1 { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+  
+0%{ /*ici on renseigne la valeur de départ*/
+opacity: 0%;
+
+}
+100%{/*ici on renseigne la valeur de fin*/
+
+  opacity: 100%;
+}}
+
+#F3-1-1{
+  top:200vh;
+  animation-delay: 8s;
+}
+
+#F3-1-2{
+  top:213.25vh;
+  animation-delay: 8.5s;
+}
+
+#F3-1-3{
+  top:226.5vh;
+  animation-delay: 9s;
+}
+
+#F3-1-4{
+  top:239.75vh;
+  animation-delay: 9.5s;
+}
+
+#F3-1-5{
+  top:253vh;
+  animation-delay:10s;
+}
+
+#F3-1-6{
+  top:266.25vh;
+  animation-delay:10.5s
+}
+
+#F3-1-7{
+  top:279.5vh;
+  animation-delay:11s;
+}
+
+#F3-1-8{
+  top:292.75vh;
+  animation-delay: 11.5s;
+}
+
+#F3-1-9{
+  top:306vh;
+  animation-delay:12s
+}
+
+#F3-2{
+  top: 319.7vh;
+  font-size: 5.73vw;
+  left: 65vw;
+  opacity: 0%;
+  z-index: 1;
+  color: rgb(128, 16, 16);
+  position: absolute;
+  text-align: center;
+  font-variation-settings: "wght" 700;
+
+}
+
+#F3-2:hover {
+  top : 300vh; 
+font-size: 13vw ;
+left : 35vw ;
+transform: rotate(30deg);
+color: rgb(201, 26, 26);
+cursor : url(http://www.favorisxp.com/curseur/pointeur-de-souris-keto-light.png), pointer;
+}
+#F3-2,
+#M3{
+animation-name:F3-2-M3 ; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+animation-duration: 2s; /*durée totale d'une itération de l'animation en seconde*/
+animation-iteration-count:inherit; /*nombre d'itération de l'animation*/
+animation-direction:unset;/*lire l'animation dans un sens puis dans l'autre*/
+animation-fill-mode:forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+}
+@keyframes F3-2-M3 { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+  
+0%{ /*ici on renseigne la valeur de départ*/
+opacity: 0%;
+
+}
+100%{/*ici on renseigne la valeur de fin*/
+
+  opacity: 100%;
+}}
+
+#M3{
+  animation-delay:13.5s;
+}
+
+#F3-2{
+  animation-delay:12.5s;
+}
